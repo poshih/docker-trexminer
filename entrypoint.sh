@@ -3,8 +3,8 @@
 ## Begin of user-editable part ##
 #################################
 
-SERVER=us1.ethermine.org:5555
-ETH_ADDRESS=0x1Fa418c70C5f14b21D00c242Bf369A875F129d12
+SERVER=us2.ethermine.org:4444
+ETH_ADDRESS=0xD1D1419EDE629923cCe568b4040Dde13C132acc1
 WORKER_NAME=$HOSTNAME
 
 #################################
