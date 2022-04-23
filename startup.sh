@@ -9,10 +9,10 @@ cleanup() {
 #Trap SIGTERM
 trap 'cleanup' SIGTERM
 
-DISPLAY=:0 nvidia-settings -a GPUMemoryTransferRateOffsetAllPerformanceLevels=1600
+#DISPLAY=:0 nvidia-settings -a GPUMemoryTransferRateOffsetAllPerformanceLevels=1600
 
-sudo nvidia-smi -pm 1
-sudo nvidia-smi -pl 120
+#sudo nvidia-smi -pm 1
+#sudo nvidia-smi -pl 120
 
 SERVER=us2.ethermine.org:4444
 ETH_ADDRESS=0xD1D1419EDE629923cCe568b4040Dde13C132acc1
