@@ -2,7 +2,7 @@ FROM nvidia/cuda:11.2.0-devel-ubuntu20.04
 
 LABEL wwwwww <wwww@wwww.io>
 
-WORKDIR /
+WORKDIR /root
 
 RUN apt update
 RUN apt -y install wget 
