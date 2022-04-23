@@ -4,6 +4,8 @@ LABEL wwwwww <wwww@wwww.io>
 
 WORKDIR /root
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 RUN apt update
 RUN apt -y install wget 
 RUN wget https://github.com/trexminer/T-Rex/releases/download/0.25.12/t-rex-0.25.12-linux.tar.gz
